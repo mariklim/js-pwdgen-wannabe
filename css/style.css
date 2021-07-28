@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #55555c;
+}
+
+body{
+    background-color: #f5f5f5;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.my_pass{
+    min-width: 400px;
+    height: 400px;
+    padding: 30px;
+    background-color:#f5f5f5;
+    box-shadow: 20px 20px 35px #d0d0d0,
+    -20px -20px 35px #ffffff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+}
+
+.my_pass h2{
+    font-size: 30px;
+    color: cadetblue;
+    font-family: 'Armata', sans-serif;
+    margin-bottom: 15px;
+}
+
+.key i{
+    margin: 40px;
+    font-size: 80px;
+    color: #c2c2c2;
+ 
+}
